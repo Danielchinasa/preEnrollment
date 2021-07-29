@@ -34,7 +34,8 @@ const Qr = () => {
       <div class="row">
         <div className="col-md-12">
           <center className="mt-3">
-            <QRCode id="QRCode" value={localStorage.getItem("userId")} />
+            {/* <QRCode id="QRCode" value={localStorage.getItem("userId")} /> */}
+            <QRCode id="QRCode" value="[{ name: 'my name'},{ email: 'email@email.com' }]" />
           </center>
         </div>
         <div className="col-md-12">
